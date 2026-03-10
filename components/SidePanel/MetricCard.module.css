@@ -1,0 +1,83 @@
+.card {
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+/* ---- Header ---- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-3);
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+}
+
+.value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+/* ---- Gauge bar ---- */
+.barTrack {
+  position: relative;
+  height: 6px;
+  background: var(--color-border);
+  border-radius: var(--radius-full);
+  overflow: visible; /* allow avgMarker to overflow the track height */
+  margin-bottom: var(--space-3);
+}
+
+.barFill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  /* Width comes from the CSS custom property set inline in the component */
+  width: var(--fill-width, 0%);
+  background: var(--color-accent);
+  border-radius: var(--radius-full);
+  transition: width 0.3s ease;
+}
+
+.avgMarker {
+  position: absolute;
+  top: -3px;
+  /* Left position comes from the CSS custom property set inline */
+  left: var(--avg-pos, 50%);
+  width: 2px;
+  height: 12px;
+  background: var(--color-text-muted);
+  border-radius: var(--radius-full);
+  transform: translateX(-50%);
+}
+
+/* ---- Footer ---- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comparison {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.percentile {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-accent);
+}

@@ -1,0 +1,21 @@
+/**
+ * MapApp.module.css
+ *
+ * The root layout for the application.
+ *
+ * LAYOUT MODEL:
+ * We use a simple flexbox row:
+ *   [  MapView (flex: 1)  ] [ SidePanel (0 → 380px) ]
+ *
+ * When SidePanel is closed its max-width is 0 (see SidePanel.module.css).
+ * When it opens it animates to 380px. Because MapView has flex: 1, it
+ * automatically takes the remaining width at every point in the animation.
+ * The map itself is notified of the resize via ResizeObserver in MapView.tsx.
+ */
+
+.layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}

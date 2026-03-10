@@ -1,26 +1,123 @@
-@import "tailwindcss";
+/**
+ * app/globals.css
+ *
+ * Global styles and CSS custom properties (design tokens).
+ *
+ * WHY CSS CUSTOM PROPERTIES?
+ * Custom properties (variables starting with --) are the CSS equivalent of
+ * constants. Every component's CSS module can reference these tokens.
+ * When the Gensler brand guide arrives, update the values here ONLY — no
+ * component CSS files need to change.
+ *
+ * We've removed the Tailwind import. This project uses CSS Modules
+ * (co-located .module.css files) for all component styling.
+ */
+
+/* --------------------------------------------------------------------------
+   Design tokens — all colours, spacing, and type scale live here
+   -------------------------------------------------------------------------- */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Brand colours */
+  --color-accent: #de2726;        /* brand red — primary */
+  --color-accent-hover: #9e0329;  /* brand dark red — hover/pressed state */
+
+  /* Neutrals — brand grey family */
+  --color-background: #ffffff;
+  --color-surface: #f1f2f2;       /* brand near-white */
+  --color-border: #d1d3d4;        /* brand light grey */
+  --color-text: #414042;          /* brand charcoal */
+  --color-text-muted: #6d6e71;    /* brand medium grey */
+  --color-text-light: #a7a9ac;    /* brand light grey */
+
+  /**
+   * Circle color scale — 3-stop sequential scale (low → mid → high).
+   * Uses the brand purple family: light lavender → mid purple → deep purple.
+   * These MUST match the hex values in lib/mapConfig.ts (CIRCLE_COLOR_LOW/MID/HIGH).
+   * They're duplicated here so the MapLegend CSS gradient matches the MapLibre
+   * circle colors exactly — MapLibre paint properties can't read CSS variables.
+   */
+  --color-scale-low:  #fcec76;    /* brand light orange — low performer */
+  --color-scale-mid:  #f68b35;    /* brand orange       — mid / average */
+  --color-scale-high: #de2726;    /* brand red          — high performer */
+
+  /* Visitor persona colours — four clearly distinct brand hues */
+  --color-persona-enthusiast:    #5e3b91; /* brand red   — most engaged */
+  --color-persona-special-event: #0079b0; /* brand blue  — occasional visitors */
+  --color-persona-errand-runner: #4c9e45; /* brand green — task-driven visitors */
+  --color-persona-reluctant:     #a7a9ac; /* brand grey  — least engaged */
+
+  /* Typography */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+
+  /* Layout */
+  --panel-width: 30vw;
+  --panel-transition-duration: 300ms;
+  --panel-transition: var(--panel-transition-duration) ease;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* --------------------------------------------------------------------------
+   Reset & base styles
+   -------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* Prevent scrollbars on the outer page — the map fills the viewport */
+  overflow: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* --------------------------------------------------------------------------
+   MapLibre GL overrides
+   These reset some of MapLibre's default UI that we don't want.
+   -------------------------------------------------------------------------- */
+
+/* Remove the default MapLibre attribution control styling conflicts */
+.maplibregl-ctrl-attrib {
+  font-family: var(--font-sans) !important;
+  font-size: 10px !important;
+}
+
+/* Ensure the map canvas fills its container */
+.maplibregl-map {
+  width: 100% !important;
+  height: 100% !important;
 }

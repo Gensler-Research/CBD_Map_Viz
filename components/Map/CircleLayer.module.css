@@ -1,0 +1,8 @@
+/**
+ * CircleLayer.module.css
+ *
+ * CircleLayer renders purely via MapLibre GL — it has no DOM elements of its
+ * own. This file exists to satisfy the project convention that every component
+ * has a co-located CSS module, and as a placeholder for any future wrapper
+ * elements (e.g. a loading overlay on the layer).
+ */

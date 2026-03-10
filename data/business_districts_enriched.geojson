@@ -1,0 +1,3437 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Abu Dhabi",
+        "district": "Abu Dhabi Corniche",
+        "id": "abu-dhabi-corniche",
+        "region": "Middle East/Africa",
+        "stickinessScore": 64.91,
+        "cbdGreatExperience": 85.22,
+        "enthusiastPct": 21.3,
+        "reluctantVisitorPct": 14.1,
+        "errandRunnerPct": 38.1,
+        "specialEventVisitorPct": 26.5,
+        "vibrantPct": 92.53,
+        "lingeringPct": 48.2,
+        "perceptionBehaviorGap": 20.31,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3773,
+          24.4672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Abu Dhabi",
+        "district": "Al Maryah Island",
+        "id": "al-maryah-island",
+        "region": "Middle East/Africa",
+        "stickinessScore": 67.47,
+        "cbdGreatExperience": 86.13,
+        "enthusiastPct": 21.8,
+        "reluctantVisitorPct": 13.6,
+        "errandRunnerPct": 38.1,
+        "specialEventVisitorPct": 26.5,
+        "vibrantPct": 85.15,
+        "lingeringPct": 46.91,
+        "perceptionBehaviorGap": 18.66,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3864,
+          24.4944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Amsterdam",
+        "district": "Amstel III / Bullewijk",
+        "id": "amstel-iii---bullewijk",
+        "region": "Europe",
+        "stickinessScore": 44.5,
+        "cbdGreatExperience": 61.19,
+        "enthusiastPct": 9.9,
+        "reluctantVisitorPct": 32.3,
+        "errandRunnerPct": 34.1,
+        "specialEventVisitorPct": 23.7,
+        "vibrantPct": 74.83,
+        "lingeringPct": 19.4,
+        "perceptionBehaviorGap": 16.69,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.95,
+          52.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Amsterdam",
+        "district": "Amsterdam Central Business District (CBD)",
+        "id": "amsterdam-central-business-district-cbd",
+        "region": "Europe",
+        "stickinessScore": 50.53,
+        "cbdGreatExperience": 59.21,
+        "enthusiastPct": 10.2,
+        "reluctantVisitorPct": 33.1,
+        "errandRunnerPct": 33.5,
+        "specialEventVisitorPct": 23.2,
+        "vibrantPct": 76.33,
+        "lingeringPct": 18.08,
+        "perceptionBehaviorGap": 8.68,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8952,
+          52.3702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Amsterdam",
+        "district": "Zuidas",
+        "id": "zuidas",
+        "region": "Europe",
+        "stickinessScore": 51.67,
+        "cbdGreatExperience": 62.61,
+        "enthusiastPct": 9.1,
+        "reluctantVisitorPct": 30.0,
+        "errandRunnerPct": 35.9,
+        "specialEventVisitorPct": 25.0,
+        "vibrantPct": 82.69,
+        "lingeringPct": 19.45,
+        "perceptionBehaviorGap": 10.94,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8716,
+          52.3361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Athens",
+        "district": "Downtown Athens",
+        "id": "downtown-athens",
+        "region": "Europe",
+        "stickinessScore": 57.35,
+        "cbdGreatExperience": 37.65,
+        "enthusiastPct": 11.7,
+        "reluctantVisitorPct": 18.8,
+        "errandRunnerPct": 41.0,
+        "specialEventVisitorPct": 28.5,
+        "vibrantPct": 71.51,
+        "lingeringPct": 29.93,
+        "perceptionBehaviorGap": -19.7,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7275,
+          37.9838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Atlanta, GA",
+        "district": "Downtown Atlanta",
+        "id": "downtown-atlanta",
+        "region": "North America",
+        "stickinessScore": 55.0,
+        "cbdGreatExperience": 80.76,
+        "enthusiastPct": 14.8,
+        "reluctantVisitorPct": 36.0,
+        "errandRunnerPct": 29.0,
+        "specialEventVisitorPct": 20.2,
+        "vibrantPct": 75.74,
+        "lingeringPct": 27.31,
+        "perceptionBehaviorGap": 25.76,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.388,
+          33.749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Atlanta, GA",
+        "district": "Midtown Atlanta",
+        "id": "midtown-atlanta",
+        "region": "North America",
+        "stickinessScore": 55.18,
+        "cbdGreatExperience": 79.38,
+        "enthusiastPct": 15.6,
+        "reluctantVisitorPct": 33.9,
+        "errandRunnerPct": 29.8,
+        "specialEventVisitorPct": 20.7,
+        "vibrantPct": 79.77,
+        "lingeringPct": 25.11,
+        "perceptionBehaviorGap": 24.2,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3858,
+          33.7838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Austin, TX",
+        "district": "Downtown Austin",
+        "id": "downtown-austin",
+        "region": "North America",
+        "stickinessScore": 52.38,
+        "cbdGreatExperience": 77.53,
+        "enthusiastPct": 17.3,
+        "reluctantVisitorPct": 38.3,
+        "errandRunnerPct": 26.2,
+        "specialEventVisitorPct": 18.2,
+        "vibrantPct": 81.51,
+        "lingeringPct": 30.86,
+        "perceptionBehaviorGap": 25.15,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7431,
+          30.2672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Baltimore, MD",
+        "district": "Downtown Baltimore",
+        "id": "downtown-baltimore",
+        "region": "North America",
+        "stickinessScore": 46.91,
+        "cbdGreatExperience": 59.78,
+        "enthusiastPct": 10.4,
+        "reluctantVisitorPct": 43.6,
+        "errandRunnerPct": 27.1,
+        "specialEventVisitorPct": 18.9,
+        "vibrantPct": 55.33,
+        "lingeringPct": 23.69,
+        "perceptionBehaviorGap": 12.87,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6122,
+          39.2904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bangalore",
+        "district": "Central Business District / MG Road",
+        "id": "central-business-district---mg-road",
+        "region": "Asia Pacific",
+        "stickinessScore": 56.69,
+        "cbdGreatExperience": 90.3,
+        "enthusiastPct": 13.9,
+        "reluctantVisitorPct": 23.0,
+        "errandRunnerPct": 37.2,
+        "specialEventVisitorPct": 25.9,
+        "vibrantPct": 86.64,
+        "lingeringPct": 34.79,
+        "perceptionBehaviorGap": 33.61,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6095,
+          12.9784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bangkok",
+        "district": "Bangkok Central Business District",
+        "id": "bangkok-central-business-district",
+        "region": "Asia Pacific",
+        "stickinessScore": 53.51,
+        "cbdGreatExperience": 70.91,
+        "enthusiastPct": 7.2,
+        "reluctantVisitorPct": 17.4,
+        "errandRunnerPct": 44.5,
+        "specialEventVisitorPct": 30.9,
+        "vibrantPct": 72.43,
+        "lingeringPct": 22.89,
+        "perceptionBehaviorGap": 17.4,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5614,
+          13.7367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Barcelona",
+        "district": "Eixample",
+        "id": "eixample",
+        "region": "Europe",
+        "stickinessScore": 52.15,
+        "cbdGreatExperience": 67.76,
+        "enthusiastPct": 10.2,
+        "reluctantVisitorPct": 26.0,
+        "errandRunnerPct": 37.6,
+        "specialEventVisitorPct": 26.2,
+        "vibrantPct": 56.68,
+        "lingeringPct": 22.5,
+        "perceptionBehaviorGap": 15.61,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.153,
+          41.3888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Barcelona",
+        "district": "Poblenou: 22@",
+        "id": "poblenou:-22@",
+        "region": "Europe",
+        "stickinessScore": 55.7,
+        "cbdGreatExperience": 68.6,
+        "enthusiastPct": 10.7,
+        "reluctantVisitorPct": 25.9,
+        "errandRunnerPct": 37.4,
+        "specialEventVisitorPct": 26.0,
+        "vibrantPct": 58.29,
+        "lingeringPct": 24.96,
+        "perceptionBehaviorGap": 12.9,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1985,
+          41.4036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Beijing",
+        "district": "Beijing CBD",
+        "id": "beijing-cbd",
+        "region": "Asia Pacific",
+        "stickinessScore": 63.18,
+        "cbdGreatExperience": 94.44,
+        "enthusiastPct": 24.0,
+        "reluctantVisitorPct": 19.7,
+        "errandRunnerPct": 33.2,
+        "specialEventVisitorPct": 23.1,
+        "vibrantPct": 87.86,
+        "lingeringPct": 52.85,
+        "perceptionBehaviorGap": 31.26,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4613,
+          39.9075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Berlin",
+        "district": "Alexanderplatz",
+        "id": "alexanderplatz",
+        "region": "Europe",
+        "stickinessScore": 51.63,
+        "cbdGreatExperience": 65.86,
+        "enthusiastPct": 11.2,
+        "reluctantVisitorPct": 32.9,
+        "errandRunnerPct": 33.0,
+        "specialEventVisitorPct": 22.9,
+        "vibrantPct": 74.26,
+        "lingeringPct": 28.2,
+        "perceptionBehaviorGap": 14.23,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4131,
+          52.5219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Berlin",
+        "district": "Friedrichstra\u00dfe",
+        "id": "friedrichstra\u00dfe",
+        "region": "Europe",
+        "stickinessScore": 54.39,
+        "cbdGreatExperience": 66.18,
+        "enthusiastPct": 11.9,
+        "reluctantVisitorPct": 32.6,
+        "errandRunnerPct": 32.7,
+        "specialEventVisitorPct": 22.8,
+        "vibrantPct": 82.8,
+        "lingeringPct": 30.02,
+        "perceptionBehaviorGap": 11.79,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3882,
+          52.5201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Berlin",
+        "district": "Kurf\u00fcrstendamm",
+        "id": "kurf\u00fcrstendamm",
+        "region": "Europe",
+        "stickinessScore": 48.25,
+        "cbdGreatExperience": 59.88,
+        "enthusiastPct": 11.4,
+        "reluctantVisitorPct": 30.5,
+        "errandRunnerPct": 34.3,
+        "specialEventVisitorPct": 23.8,
+        "vibrantPct": 74.86,
+        "lingeringPct": 30.79,
+        "perceptionBehaviorGap": 11.63,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3269,
+          52.5027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Berlin",
+        "district": "Potsdamer Platz",
+        "id": "potsdamer-platz",
+        "region": "Europe",
+        "stickinessScore": 53.48,
+        "cbdGreatExperience": 62.81,
+        "enthusiastPct": 12.1,
+        "reluctantVisitorPct": 31.2,
+        "errandRunnerPct": 33.5,
+        "specialEventVisitorPct": 23.2,
+        "vibrantPct": 83.7,
+        "lingeringPct": 28.56,
+        "perceptionBehaviorGap": 9.33,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3761,
+          52.5096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Birmingham",
+        "district": "Central Birmingham",
+        "id": "central-birmingham",
+        "region": "Europe",
+        "stickinessScore": 50.79,
+        "cbdGreatExperience": 67.33,
+        "enthusiastPct": 11.1,
+        "reluctantVisitorPct": 32.9,
+        "errandRunnerPct": 33.0,
+        "specialEventVisitorPct": 23.0,
+        "vibrantPct": 70.69,
+        "lingeringPct": 24.59,
+        "perceptionBehaviorGap": 16.54,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8904,
+          52.4862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bogota",
+        "district": "Avenida Chile",
+        "id": "avenida-chile",
+        "region": "Latin/South America",
+        "stickinessScore": 48.22,
+        "cbdGreatExperience": 71.02,
+        "enthusiastPct": 11.1,
+        "reluctantVisitorPct": 28.7,
+        "errandRunnerPct": 35.5,
+        "specialEventVisitorPct": 24.7,
+        "vibrantPct": 60.97,
+        "lingeringPct": 26.43,
+        "perceptionBehaviorGap": 22.8,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0494,
+          4.6573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bogota",
+        "district": "Avenida el Dorado",
+        "id": "avenida-el-dorado",
+        "region": "Latin/South America",
+        "stickinessScore": 49.3,
+        "cbdGreatExperience": 70.7,
+        "enthusiastPct": 11.9,
+        "reluctantVisitorPct": 29.9,
+        "errandRunnerPct": 34.3,
+        "specialEventVisitorPct": 23.9,
+        "vibrantPct": 56.22,
+        "lingeringPct": 23.05,
+        "perceptionBehaviorGap": 21.4,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0934,
+          4.6563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Bogota",
+        "district": "Centro Internacional",
+        "id": "centro-internacional",
+        "region": "Latin/South America",
+        "stickinessScore": 46.98,
+        "cbdGreatExperience": 75.53,
+        "enthusiastPct": 11.5,
+        "reluctantVisitorPct": 29.4,
+        "errandRunnerPct": 34.9,
+        "specialEventVisitorPct": 24.2,
+        "vibrantPct": 55.96,
+        "lingeringPct": 24.38,
+        "perceptionBehaviorGap": 28.55,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0659,
+          4.6108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Boston, MA",
+        "district": "Beacon Hill / Financial District",
+        "id": "beacon-hill---financial-district",
+        "region": "North America",
+        "stickinessScore": 62.04,
+        "cbdGreatExperience": 86.4,
+        "enthusiastPct": 19.7,
+        "reluctantVisitorPct": 27.2,
+        "errandRunnerPct": 31.3,
+        "specialEventVisitorPct": 21.8,
+        "vibrantPct": 75.42,
+        "lingeringPct": 37.19,
+        "perceptionBehaviorGap": 24.36,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0589,
+          42.3601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Boston, MA",
+        "district": "Seaport",
+        "id": "seaport",
+        "region": "North America",
+        "stickinessScore": 59.15,
+        "cbdGreatExperience": 86.51,
+        "enthusiastPct": 17.6,
+        "reluctantVisitorPct": 26.3,
+        "errandRunnerPct": 33.1,
+        "specialEventVisitorPct": 23.0,
+        "vibrantPct": 76.73,
+        "lingeringPct": 35.55,
+        "perceptionBehaviorGap": 27.36,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0432,
+          42.3519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Cairo",
+        "district": "Downtown Cairo",
+        "id": "downtown-cairo",
+        "region": "Middle East/Africa",
+        "stickinessScore": 69.93,
+        "cbdGreatExperience": 82.48,
+        "enthusiastPct": 26.7,
+        "reluctantVisitorPct": 11.2,
+        "errandRunnerPct": 36.6,
+        "specialEventVisitorPct": 25.5,
+        "vibrantPct": 87.01,
+        "lingeringPct": 59.09,
+        "perceptionBehaviorGap": 12.55,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2357,
+          30.0444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Charlotte, NC",
+        "district": "Uptown Charlotte",
+        "id": "uptown-charlotte",
+        "region": "North America",
+        "stickinessScore": 49.32,
+        "cbdGreatExperience": 74.3,
+        "enthusiastPct": 11.3,
+        "reluctantVisitorPct": 42.4,
+        "errandRunnerPct": 27.3,
+        "specialEventVisitorPct": 19.0,
+        "vibrantPct": 70.88,
+        "lingeringPct": 26.48,
+        "perceptionBehaviorGap": 24.98,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8431,
+          35.2271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Chicago, IL",
+        "district": "The Loop",
+        "id": "the-loop",
+        "region": "North America",
+        "stickinessScore": 54.29,
+        "cbdGreatExperience": 84.52,
+        "enthusiastPct": 16.8,
+        "reluctantVisitorPct": 35.8,
+        "errandRunnerPct": 28.0,
+        "specialEventVisitorPct": 19.4,
+        "vibrantPct": 84.13,
+        "lingeringPct": 37.33,
+        "perceptionBehaviorGap": 30.23,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6298,
+          41.8827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Columbus, OH",
+        "district": "Downtown Columbus",
+        "id": "downtown-columbus",
+        "region": "North America",
+        "stickinessScore": 46.46,
+        "cbdGreatExperience": 68.47,
+        "enthusiastPct": 11.1,
+        "reluctantVisitorPct": 47.5,
+        "errandRunnerPct": 24.4,
+        "specialEventVisitorPct": 17.0,
+        "vibrantPct": 66.12,
+        "lingeringPct": 25.54,
+        "perceptionBehaviorGap": 22.01,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9988,
+          39.9612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Dallas, TX",
+        "district": "Downtown Dallas",
+        "id": "downtown-dallas",
+        "region": "North America",
+        "stickinessScore": 49.29,
+        "cbdGreatExperience": 82.26,
+        "enthusiastPct": 12.4,
+        "reluctantVisitorPct": 37.4,
+        "errandRunnerPct": 29.6,
+        "specialEventVisitorPct": 20.6,
+        "vibrantPct": 75.31,
+        "lingeringPct": 26.24,
+        "perceptionBehaviorGap": 32.97,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.797,
+          32.7767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Dallas, TX",
+        "district": "Uptown Dallas",
+        "id": "uptown-dallas",
+        "region": "North America",
+        "stickinessScore": 52.94,
+        "cbdGreatExperience": 81.24,
+        "enthusiastPct": 11.3,
+        "reluctantVisitorPct": 39.8,
+        "errandRunnerPct": 28.9,
+        "specialEventVisitorPct": 20.0,
+        "vibrantPct": 76.61,
+        "lingeringPct": 26.12,
+        "perceptionBehaviorGap": 28.3,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8016,
+          32.7968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Delhi",
+        "district": "Connaught Place",
+        "id": "connaught-place",
+        "region": "Asia Pacific",
+        "stickinessScore": 59.01,
+        "cbdGreatExperience": 86.64,
+        "enthusiastPct": 16.9,
+        "reluctantVisitorPct": 22.2,
+        "errandRunnerPct": 35.9,
+        "specialEventVisitorPct": 25.0,
+        "vibrantPct": 75.87,
+        "lingeringPct": 34.7,
+        "perceptionBehaviorGap": 27.63,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.209,
+          28.6315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Delhi",
+        "district": "Nehru Place",
+        "id": "nehru-place",
+        "region": "Asia Pacific",
+        "stickinessScore": 52.28,
+        "cbdGreatExperience": 92.01,
+        "enthusiastPct": 17.2,
+        "reluctantVisitorPct": 23.3,
+        "errandRunnerPct": 35.1,
+        "specialEventVisitorPct": 24.4,
+        "vibrantPct": 79.92,
+        "lingeringPct": 33.17,
+        "perceptionBehaviorGap": 39.73,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.251,
+          28.5491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Denver, CO",
+        "district": "Downtown Denver",
+        "id": "downtown-denver",
+        "region": "North America",
+        "stickinessScore": 46.6,
+        "cbdGreatExperience": 63.91,
+        "enthusiastPct": 11.6,
+        "reluctantVisitorPct": 46.5,
+        "errandRunnerPct": 24.7,
+        "specialEventVisitorPct": 17.2,
+        "vibrantPct": 62.33,
+        "lingeringPct": 24.58,
+        "perceptionBehaviorGap": 17.31,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9903,
+          39.7392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Detroit, MI",
+        "district": "Downtown Detroit",
+        "id": "downtown-detroit",
+        "region": "North America",
+        "stickinessScore": 59.37,
+        "cbdGreatExperience": 84.63,
+        "enthusiastPct": 21.6,
+        "reluctantVisitorPct": 26.7,
+        "errandRunnerPct": 30.5,
+        "specialEventVisitorPct": 21.2,
+        "vibrantPct": 81.44,
+        "lingeringPct": 49.15,
+        "perceptionBehaviorGap": 25.26,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0458,
+          42.3314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Dubai",
+        "district": "Business Bay",
+        "id": "business-bay",
+        "region": "Middle East/Africa",
+        "stickinessScore": 68.55,
+        "cbdGreatExperience": 100.03,
+        "enthusiastPct": 21.2,
+        "reluctantVisitorPct": 15.7,
+        "errandRunnerPct": 37.2,
+        "specialEventVisitorPct": 25.9,
+        "vibrantPct": 84.91,
+        "lingeringPct": 47.29,
+        "perceptionBehaviorGap": 31.48,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2649,
+          25.1882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Dubai",
+        "district": "Dubai International Financial Centre",
+        "id": "dubai-international-financial-centre",
+        "region": "Middle East/Africa",
+        "stickinessScore": 67.39,
+        "cbdGreatExperience": 87.8,
+        "enthusiastPct": 22.6,
+        "reluctantVisitorPct": 15.8,
+        "errandRunnerPct": 36.3,
+        "specialEventVisitorPct": 25.3,
+        "vibrantPct": 87.77,
+        "lingeringPct": 48.11,
+        "perceptionBehaviorGap": 20.41,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.2796,
+          25.2048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Dubai",
+        "district": "Jebel Ali Free Zone",
+        "id": "jebel-ali-free-zone",
+        "region": "Middle East/Africa",
+        "stickinessScore": 63.85,
+        "cbdGreatExperience": 89.05,
+        "enthusiastPct": 22.8,
+        "reluctantVisitorPct": 16.3,
+        "errandRunnerPct": 35.9,
+        "specialEventVisitorPct": 25.0,
+        "vibrantPct": 86.84,
+        "lingeringPct": 44.03,
+        "perceptionBehaviorGap": 25.2,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.0272,
+          24.9857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Guadalajara",
+        "district": "Guadalajara Puerta de Hierro",
+        "id": "guadalajara-puerta-de-hierro",
+        "region": "Latin/South America",
+        "stickinessScore": 55.6,
+        "cbdGreatExperience": 80.0,
+        "enthusiastPct": 14.5,
+        "reluctantVisitorPct": 28.0,
+        "errandRunnerPct": 33.9,
+        "specialEventVisitorPct": 23.6,
+        "vibrantPct": 72.75,
+        "lingeringPct": 31.83,
+        "perceptionBehaviorGap": 24.4,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4378,
+          20.6982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Ho Chi Minh City",
+        "district": "District 1",
+        "id": "district-1",
+        "region": "Asia Pacific",
+        "stickinessScore": 61.55,
+        "cbdGreatExperience": 89.64,
+        "enthusiastPct": 21.8,
+        "reluctantVisitorPct": 19.7,
+        "errandRunnerPct": 34.5,
+        "specialEventVisitorPct": 24.0,
+        "vibrantPct": 90.93,
+        "lingeringPct": 45.42,
+        "perceptionBehaviorGap": 28.09,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6997,
+          10.7769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Hong Kong",
+        "district": "Central",
+        "id": "central",
+        "region": "Asia Pacific",
+        "stickinessScore": 61.65,
+        "cbdGreatExperience": 56.7,
+        "enthusiastPct": 14.9,
+        "reluctantVisitorPct": 25.3,
+        "errandRunnerPct": 35.3,
+        "specialEventVisitorPct": 24.5,
+        "vibrantPct": 57.64,
+        "lingeringPct": 25.7,
+        "perceptionBehaviorGap": -4.95,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1577,
+          22.2817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Hong Kong",
+        "district": "Kwun Tong",
+        "id": "kwun-tong",
+        "region": "Asia Pacific",
+        "stickinessScore": 55.64,
+        "cbdGreatExperience": 56.15,
+        "enthusiastPct": 14.4,
+        "reluctantVisitorPct": 24.1,
+        "errandRunnerPct": 36.3,
+        "specialEventVisitorPct": 25.2,
+        "vibrantPct": 57.15,
+        "lingeringPct": 27.44,
+        "perceptionBehaviorGap": 0.51,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2263,
+          22.3126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Hong Kong",
+        "district": "Taikoo / Quarry Bay",
+        "id": "taikoo---quarry-bay",
+        "region": "Asia Pacific",
+        "stickinessScore": 54.64,
+        "cbdGreatExperience": 58.96,
+        "enthusiastPct": 16.0,
+        "reluctantVisitorPct": 23.5,
+        "errandRunnerPct": 35.7,
+        "specialEventVisitorPct": 24.8,
+        "vibrantPct": 58.79,
+        "lingeringPct": 27.61,
+        "perceptionBehaviorGap": 4.32,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2165,
+          22.2863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Houston, TX",
+        "district": "Downtown / Central Houston",
+        "id": "downtown---central-houston",
+        "region": "North America",
+        "stickinessScore": 44.63,
+        "cbdGreatExperience": 68.47,
+        "enthusiastPct": 12.6,
+        "reluctantVisitorPct": 43.7,
+        "errandRunnerPct": 25.8,
+        "specialEventVisitorPct": 17.9,
+        "vibrantPct": 73.43,
+        "lingeringPct": 27.78,
+        "perceptionBehaviorGap": 23.84,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3698,
+          29.7604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Houston, TX",
+        "district": "Greenway Plaza District",
+        "id": "greenway-plaza-district",
+        "region": "North America",
+        "stickinessScore": 49.07,
+        "cbdGreatExperience": 69.15,
+        "enthusiastPct": 11.0,
+        "reluctantVisitorPct": 42.7,
+        "errandRunnerPct": 27.3,
+        "specialEventVisitorPct": 19.0,
+        "vibrantPct": 72.85,
+        "lingeringPct": 26.43,
+        "perceptionBehaviorGap": 20.08,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4414,
+          29.7361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Houston, TX",
+        "district": "Texas Medical Center",
+        "id": "texas-medical-center",
+        "region": "North America",
+        "stickinessScore": 48.48,
+        "cbdGreatExperience": 74.77,
+        "enthusiastPct": 12.7,
+        "reluctantVisitorPct": 40.4,
+        "errandRunnerPct": 27.7,
+        "specialEventVisitorPct": 19.2,
+        "vibrantPct": 72.6,
+        "lingeringPct": 25.89,
+        "perceptionBehaviorGap": 26.29,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3967,
+          29.7079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Indianapolis, IN",
+        "district": "Downtown Indianapolis",
+        "id": "downtown-indianapolis",
+        "region": "North America",
+        "stickinessScore": 46.49,
+        "cbdGreatExperience": 68.27,
+        "enthusiastPct": 10.8,
+        "reluctantVisitorPct": 44.5,
+        "errandRunnerPct": 26.4,
+        "specialEventVisitorPct": 18.3,
+        "vibrantPct": 61.3,
+        "lingeringPct": 22.62,
+        "perceptionBehaviorGap": 21.78,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1581,
+          39.7684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Istanbul",
+        "district": "Atasehir",
+        "id": "atasehir",
+        "region": "Europe",
+        "stickinessScore": 56.66,
+        "cbdGreatExperience": 56.09,
+        "enthusiastPct": 10.4,
+        "reluctantVisitorPct": 24.9,
+        "errandRunnerPct": 38.2,
+        "specialEventVisitorPct": 26.5,
+        "vibrantPct": 75.27,
+        "lingeringPct": 18.99,
+        "perceptionBehaviorGap": -0.57,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.127,
+          40.9923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Istanbul",
+        "district": "Levent",
+        "id": "levent",
+        "region": "Europe",
+        "stickinessScore": 51.42,
+        "cbdGreatExperience": 62.4,
+        "enthusiastPct": 10.8,
+        "reluctantVisitorPct": 26.6,
+        "errandRunnerPct": 36.9,
+        "specialEventVisitorPct": 25.7,
+        "vibrantPct": 76.83,
+        "lingeringPct": 18.27,
+        "perceptionBehaviorGap": 10.98,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.012,
+          41.082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Istanbul",
+        "district": "Maslak",
+        "id": "maslak",
+        "region": "Europe",
+        "stickinessScore": 57.84,
+        "cbdGreatExperience": 61.58,
+        "enthusiastPct": 11.7,
+        "reluctantVisitorPct": 26.8,
+        "errandRunnerPct": 36.3,
+        "specialEventVisitorPct": 25.2,
+        "vibrantPct": 80.47,
+        "lingeringPct": 18.64,
+        "perceptionBehaviorGap": 3.74,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0176,
+          41.1077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Johannesburg",
+        "district": "Johannesburg CBD",
+        "id": "johannesburg-cbd",
+        "region": "Middle East/Africa",
+        "stickinessScore": 42.87,
+        "cbdGreatExperience": 51.0,
+        "enthusiastPct": 7.0,
+        "reluctantVisitorPct": 36.0,
+        "errandRunnerPct": 33.6,
+        "specialEventVisitorPct": 23.4,
+        "vibrantPct": 59.6,
+        "lingeringPct": 15.21,
+        "perceptionBehaviorGap": 8.13,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0473,
+          -26.2041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Kansas City, MO",
+        "district": "Downtown Kansas City",
+        "id": "downtown-kansas-city",
+        "region": "North America",
+        "stickinessScore": 52.61,
+        "cbdGreatExperience": 77.97,
+        "enthusiastPct": 14.7,
+        "reluctantVisitorPct": 33.7,
+        "errandRunnerPct": 30.4,
+        "specialEventVisitorPct": 21.2,
+        "vibrantPct": 75.95,
+        "lingeringPct": 32.75,
+        "perceptionBehaviorGap": 25.36,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5786,
+          39.0997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Lagos",
+        "district": "Lagos Island",
+        "id": "lagos-island",
+        "region": "Middle East/Africa",
+        "stickinessScore": 59.81,
+        "cbdGreatExperience": 87.84,
+        "enthusiastPct": 16.4,
+        "reluctantVisitorPct": 14.1,
+        "errandRunnerPct": 41.0,
+        "specialEventVisitorPct": 28.5,
+        "vibrantPct": 89.07,
+        "lingeringPct": 36.06,
+        "perceptionBehaviorGap": 28.03,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3958,
+          6.4531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Las Vegas, NV",
+        "district": "Downtown Las Vegas",
+        "id": "downtown-las-vegas",
+        "region": "North America",
+        "stickinessScore": 46.17,
+        "cbdGreatExperience": 78.67,
+        "enthusiastPct": 12.8,
+        "reluctantVisitorPct": 43.6,
+        "errandRunnerPct": 25.7,
+        "specialEventVisitorPct": 17.9,
+        "vibrantPct": 83.85,
+        "lingeringPct": 37.96,
+        "perceptionBehaviorGap": 32.5,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1398,
+          36.1699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "London",
+        "district": "Canary Wharf",
+        "id": "canary-wharf",
+        "region": "Europe",
+        "stickinessScore": 54.63,
+        "cbdGreatExperience": 71.52,
+        "enthusiastPct": 13.5,
+        "reluctantVisitorPct": 25.2,
+        "errandRunnerPct": 36.2,
+        "specialEventVisitorPct": 25.1,
+        "vibrantPct": 77.66,
+        "lingeringPct": 34.72,
+        "perceptionBehaviorGap": 16.89,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0235,
+          51.5054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "London",
+        "district": "The City of London",
+        "id": "the-city-of-london",
+        "region": "Europe",
+        "stickinessScore": 52.7,
+        "cbdGreatExperience": 78.36,
+        "enthusiastPct": 13.6,
+        "reluctantVisitorPct": 26.8,
+        "errandRunnerPct": 35.2,
+        "specialEventVisitorPct": 24.4,
+        "vibrantPct": 84.98,
+        "lingeringPct": 34.77,
+        "perceptionBehaviorGap": 25.66,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0923,
+          51.5155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Los Angeles, CA",
+        "district": "Century City",
+        "id": "century-city",
+        "region": "North America",
+        "stickinessScore": 47.5,
+        "cbdGreatExperience": 71.24,
+        "enthusiastPct": 11.9,
+        "reluctantVisitorPct": 37.8,
+        "errandRunnerPct": 29.7,
+        "specialEventVisitorPct": 20.6,
+        "vibrantPct": 70.07,
+        "lingeringPct": 26.04,
+        "perceptionBehaviorGap": 23.74,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4165,
+          34.0561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Los Angeles, CA",
+        "district": "Downtown Los Angeles",
+        "id": "downtown-los-angeles",
+        "region": "North America",
+        "stickinessScore": 47.4,
+        "cbdGreatExperience": 71.56,
+        "enthusiastPct": 11.7,
+        "reluctantVisitorPct": 39.6,
+        "errandRunnerPct": 28.7,
+        "specialEventVisitorPct": 20.0,
+        "vibrantPct": 65.21,
+        "lingeringPct": 27.16,
+        "perceptionBehaviorGap": 24.16,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Los Angeles, CA",
+        "district": "Financial District - LA",
+        "id": "financial-district---la",
+        "region": "North America",
+        "stickinessScore": 44.5,
+        "cbdGreatExperience": 73.9,
+        "enthusiastPct": 11.8,
+        "reluctantVisitorPct": 37.1,
+        "errandRunnerPct": 30.1,
+        "specialEventVisitorPct": 21.0,
+        "vibrantPct": 66.17,
+        "lingeringPct": 26.43,
+        "perceptionBehaviorGap": 29.4,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2545,
+          34.0503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Madrid",
+        "district": "AZCA",
+        "id": "azca",
+        "region": "Europe",
+        "stickinessScore": 52.4,
+        "cbdGreatExperience": 78.17,
+        "enthusiastPct": 14.8,
+        "reluctantVisitorPct": 27.9,
+        "errandRunnerPct": 33.8,
+        "specialEventVisitorPct": 23.5,
+        "vibrantPct": 77.89,
+        "lingeringPct": 32.44,
+        "perceptionBehaviorGap": 25.77,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6908,
+          40.4534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Madrid",
+        "district": "Centro",
+        "id": "centro",
+        "region": "Europe",
+        "stickinessScore": 54.01,
+        "cbdGreatExperience": 84.34,
+        "enthusiastPct": 13.9,
+        "reluctantVisitorPct": 31.1,
+        "errandRunnerPct": 32.4,
+        "specialEventVisitorPct": 22.6,
+        "vibrantPct": 73.1,
+        "lingeringPct": 32.93,
+        "perceptionBehaviorGap": 30.33,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Madrid",
+        "district": "Cuatro Torres Business Area (CTBA)",
+        "id": "cuatro-torres-business-area-ctba",
+        "region": "Europe",
+        "stickinessScore": 52.43,
+        "cbdGreatExperience": 81.84,
+        "enthusiastPct": 14.3,
+        "reluctantVisitorPct": 28.2,
+        "errandRunnerPct": 33.9,
+        "specialEventVisitorPct": 23.6,
+        "vibrantPct": 74.47,
+        "lingeringPct": 33.11,
+        "perceptionBehaviorGap": 29.41,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6898,
+          40.4699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Manila",
+        "district": "Bonifacio Global City",
+        "id": "bonifacio-global-city",
+        "region": "Asia Pacific",
+        "stickinessScore": 53.31,
+        "cbdGreatExperience": 78.89,
+        "enthusiastPct": 19.9,
+        "reluctantVisitorPct": 27.2,
+        "errandRunnerPct": 31.2,
+        "specialEventVisitorPct": 21.7,
+        "vibrantPct": 72.19,
+        "lingeringPct": 35.05,
+        "perceptionBehaviorGap": 25.58,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0472,
+          14.5503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Manila",
+        "district": "Eastwood City",
+        "id": "eastwood-city",
+        "region": "Asia Pacific",
+        "stickinessScore": 55.07,
+        "cbdGreatExperience": 84.93,
+        "enthusiastPct": 19.5,
+        "reluctantVisitorPct": 26.7,
+        "errandRunnerPct": 31.7,
+        "specialEventVisitorPct": 22.1,
+        "vibrantPct": 75.86,
+        "lingeringPct": 34.73,
+        "perceptionBehaviorGap": 29.86,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0792,
+          14.605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Manila",
+        "district": "Makati Central Business District (CBD)",
+        "id": "makati-central-business-district-cbd",
+        "region": "Asia Pacific",
+        "stickinessScore": 60.28,
+        "cbdGreatExperience": 82.01,
+        "enthusiastPct": 18.7,
+        "reluctantVisitorPct": 27.2,
+        "errandRunnerPct": 31.9,
+        "specialEventVisitorPct": 22.2,
+        "vibrantPct": 79.39,
+        "lingeringPct": 33.85,
+        "perceptionBehaviorGap": 21.73,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0244,
+          14.5547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Manila",
+        "district": "Ortigas Center",
+        "id": "ortigas-center",
+        "region": "Asia Pacific",
+        "stickinessScore": 60.12,
+        "cbdGreatExperience": 76.87,
+        "enthusiastPct": 18.9,
+        "reluctantVisitorPct": 27.0,
+        "errandRunnerPct": 31.9,
+        "specialEventVisitorPct": 22.2,
+        "vibrantPct": 72.95,
+        "lingeringPct": 34.48,
+        "perceptionBehaviorGap": 16.75,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0604,
+          14.5876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mexico City",
+        "district": "City of Santa Fe",
+        "id": "city-of-santa-fe",
+        "region": "Latin/South America",
+        "stickinessScore": 51.42,
+        "cbdGreatExperience": 77.61,
+        "enthusiastPct": 12.0,
+        "reluctantVisitorPct": 27.4,
+        "errandRunnerPct": 35.8,
+        "specialEventVisitorPct": 24.8,
+        "vibrantPct": 74.24,
+        "lingeringPct": 29.48,
+        "perceptionBehaviorGap": 26.19,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2591,
+          19.3587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mexico City",
+        "district": "Insurgentes",
+        "id": "insurgentes",
+        "region": "Latin/South America",
+        "stickinessScore": 56.05,
+        "cbdGreatExperience": 74.04,
+        "enthusiastPct": 12.5,
+        "reluctantVisitorPct": 28.6,
+        "errandRunnerPct": 34.8,
+        "specialEventVisitorPct": 24.1,
+        "vibrantPct": 75.71,
+        "lingeringPct": 28.93,
+        "perceptionBehaviorGap": 17.99,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1803,
+          19.3984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mexico City",
+        "district": "Paseo de la Reforma",
+        "id": "paseo-de-la-reforma",
+        "region": "Latin/South America",
+        "stickinessScore": 54.2,
+        "cbdGreatExperience": 74.2,
+        "enthusiastPct": 11.5,
+        "reluctantVisitorPct": 28.1,
+        "errandRunnerPct": 35.6,
+        "specialEventVisitorPct": 24.8,
+        "vibrantPct": 73.31,
+        "lingeringPct": 29.77,
+        "perceptionBehaviorGap": 20.0,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1708,
+          19.427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Miami, FL",
+        "district": "Brickell",
+        "id": "brickell",
+        "region": "North America",
+        "stickinessScore": 54.44,
+        "cbdGreatExperience": 84.95,
+        "enthusiastPct": 16.0,
+        "reluctantVisitorPct": 29.8,
+        "errandRunnerPct": 32.0,
+        "specialEventVisitorPct": 22.2,
+        "vibrantPct": 79.1,
+        "lingeringPct": 38.17,
+        "perceptionBehaviorGap": 30.51,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1918,
+          25.7617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Miami, FL",
+        "district": "Downtown Miami",
+        "id": "downtown-miami",
+        "region": "North America",
+        "stickinessScore": 55.81,
+        "cbdGreatExperience": 84.86,
+        "enthusiastPct": 17.1,
+        "reluctantVisitorPct": 32.7,
+        "errandRunnerPct": 29.6,
+        "specialEventVisitorPct": 20.6,
+        "vibrantPct": 80.09,
+        "lingeringPct": 33.83,
+        "perceptionBehaviorGap": 29.05,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1937,
+          25.7751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Minneapolis, MN",
+        "district": "Central Business District",
+        "id": "central-business-district",
+        "region": "North America",
+        "stickinessScore": 48.4,
+        "cbdGreatExperience": 74.26,
+        "enthusiastPct": 14.3,
+        "reluctantVisitorPct": 44.2,
+        "errandRunnerPct": 24.5,
+        "specialEventVisitorPct": 17.0,
+        "vibrantPct": 68.67,
+        "lingeringPct": 25.55,
+        "perceptionBehaviorGap": 25.86,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.265,
+          44.9778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Minneapolis, MN",
+        "district": "Warehouse District",
+        "id": "warehouse-district",
+        "region": "North America",
+        "stickinessScore": 47.93,
+        "cbdGreatExperience": 65.36,
+        "enthusiastPct": 14.3,
+        "reluctantVisitorPct": 44.4,
+        "errandRunnerPct": 24.4,
+        "specialEventVisitorPct": 16.9,
+        "vibrantPct": 63.58,
+        "lingeringPct": 27.31,
+        "perceptionBehaviorGap": 17.43,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2792,
+          44.9833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Monterrey",
+        "district": "Centro",
+        "id": "centro",
+        "region": "Latin/South America",
+        "stickinessScore": 53.77,
+        "cbdGreatExperience": 83.05,
+        "enthusiastPct": 17.6,
+        "reluctantVisitorPct": 25.3,
+        "errandRunnerPct": 33.7,
+        "specialEventVisitorPct": 23.4,
+        "vibrantPct": 73.29,
+        "lingeringPct": 35.08,
+        "perceptionBehaviorGap": 29.28,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3161,
+          25.6714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Monterrey",
+        "district": "San Pedro",
+        "id": "san-pedro",
+        "region": "Latin/South America",
+        "stickinessScore": 52.59,
+        "cbdGreatExperience": 80.65,
+        "enthusiastPct": 16.1,
+        "reluctantVisitorPct": 25.1,
+        "errandRunnerPct": 34.7,
+        "specialEventVisitorPct": 24.1,
+        "vibrantPct": 73.2,
+        "lingeringPct": 34.99,
+        "perceptionBehaviorGap": 28.06,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3687,
+          25.6538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Monterrey",
+        "district": "Valle Oriente",
+        "id": "valle-oriente",
+        "region": "Latin/South America",
+        "stickinessScore": 59.75,
+        "cbdGreatExperience": 74.81,
+        "enthusiastPct": 17.4,
+        "reluctantVisitorPct": 22.0,
+        "errandRunnerPct": 35.8,
+        "specialEventVisitorPct": 24.8,
+        "vibrantPct": 73.98,
+        "lingeringPct": 34.96,
+        "perceptionBehaviorGap": 15.06,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3063,
+          25.6488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mumbai",
+        "district": "Andheri",
+        "id": "andheri",
+        "region": "Asia Pacific",
+        "stickinessScore": 57.09,
+        "cbdGreatExperience": 91.48,
+        "enthusiastPct": 16.2,
+        "reluctantVisitorPct": 19.4,
+        "errandRunnerPct": 38.0,
+        "specialEventVisitorPct": 26.4,
+        "vibrantPct": 85.57,
+        "lingeringPct": 34.48,
+        "perceptionBehaviorGap": 34.39,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8478,
+          19.1136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mumbai",
+        "district": "Bandra Kurla Complex",
+        "id": "bandra-kurla-complex",
+        "region": "Asia Pacific",
+        "stickinessScore": 55.19,
+        "cbdGreatExperience": 82.79,
+        "enthusiastPct": 15.8,
+        "reluctantVisitorPct": 21.2,
+        "errandRunnerPct": 37.2,
+        "specialEventVisitorPct": 25.8,
+        "vibrantPct": 87.81,
+        "lingeringPct": 34.78,
+        "perceptionBehaviorGap": 27.6,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8654,
+          19.0631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mumbai",
+        "district": "Fort",
+        "id": "fort",
+        "region": "Asia Pacific",
+        "stickinessScore": 61.09,
+        "cbdGreatExperience": 85.67,
+        "enthusiastPct": 17.6,
+        "reluctantVisitorPct": 20.1,
+        "errandRunnerPct": 36.8,
+        "specialEventVisitorPct": 25.5,
+        "vibrantPct": 87.45,
+        "lingeringPct": 33.83,
+        "perceptionBehaviorGap": 24.58,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8337,
+          18.9322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Mumbai",
+        "district": "Lower Parel",
+        "id": "lower-parel",
+        "region": "Asia Pacific",
+        "stickinessScore": 64.24,
+        "cbdGreatExperience": 82.59,
+        "enthusiastPct": 17.5,
+        "reluctantVisitorPct": 19.2,
+        "errandRunnerPct": 37.3,
+        "specialEventVisitorPct": 26.0,
+        "vibrantPct": 76.59,
+        "lingeringPct": 35.67,
+        "perceptionBehaviorGap": 18.35,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8347,
+          19.0007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Munich",
+        "district": "Altstadt-Lehel",
+        "id": "altstadt-lehel",
+        "region": "Europe",
+        "stickinessScore": 52.81,
+        "cbdGreatExperience": 66.7,
+        "enthusiastPct": 12.3,
+        "reluctantVisitorPct": 40.2,
+        "errandRunnerPct": 28.0,
+        "specialEventVisitorPct": 19.5,
+        "vibrantPct": 78.18,
+        "lingeringPct": 27.3,
+        "perceptionBehaviorGap": 13.89,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5762,
+          48.1374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Munich",
+        "district": "Marienplatz",
+        "id": "marienplatz",
+        "region": "Europe",
+        "stickinessScore": 48.95,
+        "cbdGreatExperience": 71.05,
+        "enthusiastPct": 11.1,
+        "reluctantVisitorPct": 42.8,
+        "errandRunnerPct": 27.2,
+        "specialEventVisitorPct": 18.9,
+        "vibrantPct": 80.13,
+        "lingeringPct": 27.92,
+        "perceptionBehaviorGap": 22.1,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5755,
+          48.1372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Nairobi",
+        "district": "Nairobi CBD",
+        "id": "nairobi-cbd",
+        "region": "Middle East/Africa",
+        "stickinessScore": 60.23,
+        "cbdGreatExperience": 74.39,
+        "enthusiastPct": 17.6,
+        "reluctantVisitorPct": 18.2,
+        "errandRunnerPct": 37.9,
+        "specialEventVisitorPct": 26.3,
+        "vibrantPct": 81.34,
+        "lingeringPct": 25.81,
+        "perceptionBehaviorGap": 14.16,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8219,
+          -1.2921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Nairobi",
+        "district": "Upper Hill",
+        "id": "upper-hill",
+        "region": "Middle East/Africa",
+        "stickinessScore": 56.26,
+        "cbdGreatExperience": 76.44,
+        "enthusiastPct": 18.6,
+        "reluctantVisitorPct": 19.0,
+        "errandRunnerPct": 36.8,
+        "specialEventVisitorPct": 25.6,
+        "vibrantPct": 76.84,
+        "lingeringPct": 26.14,
+        "perceptionBehaviorGap": 20.18,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8148,
+          -1.2987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Nashville, TN",
+        "district": "Downtown Nashville",
+        "id": "downtown-nashville",
+        "region": "North America",
+        "stickinessScore": 49.37,
+        "cbdGreatExperience": 76.55,
+        "enthusiastPct": 14.2,
+        "reluctantVisitorPct": 39.4,
+        "errandRunnerPct": 27.4,
+        "specialEventVisitorPct": 19.0,
+        "vibrantPct": 81.84,
+        "lingeringPct": 28.73,
+        "perceptionBehaviorGap": 27.18,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7816,
+          36.1627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "New York, NY",
+        "district": "Downtown Brooklyn",
+        "id": "downtown-brooklyn",
+        "region": "North America",
+        "stickinessScore": 49.67,
+        "cbdGreatExperience": 78.12,
+        "enthusiastPct": 12.4,
+        "reluctantVisitorPct": 32.8,
+        "errandRunnerPct": 32.3,
+        "specialEventVisitorPct": 22.5,
+        "vibrantPct": 86.45,
+        "lingeringPct": 30.0,
+        "perceptionBehaviorGap": 28.45,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9857,
+          40.6928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "New York, NY",
+        "district": "Lower Manhattan / Financial District",
+        "id": "lower-manhattan---financial-district",
+        "region": "North America",
+        "stickinessScore": 53.71,
+        "cbdGreatExperience": 82.25,
+        "enthusiastPct": 12.8,
+        "reluctantVisitorPct": 33.5,
+        "errandRunnerPct": 31.7,
+        "specialEventVisitorPct": 22.0,
+        "vibrantPct": 74.3,
+        "lingeringPct": 28.18,
+        "perceptionBehaviorGap": 28.54,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0099,
+          40.7074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "New York, NY",
+        "district": "Midtown Manhattan",
+        "id": "midtown-manhattan",
+        "region": "North America",
+        "stickinessScore": 49.89,
+        "cbdGreatExperience": 81.79,
+        "enthusiastPct": 13.5,
+        "reluctantVisitorPct": 33.0,
+        "errandRunnerPct": 31.6,
+        "specialEventVisitorPct": 21.9,
+        "vibrantPct": 80.01,
+        "lingeringPct": 27.83,
+        "perceptionBehaviorGap": 31.9,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9857,
+          40.7549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Paris",
+        "district": "La D\u00e9fense",
+        "id": "la-d\u00e9fense",
+        "region": "Europe",
+        "stickinessScore": 46.23,
+        "cbdGreatExperience": 58.61,
+        "enthusiastPct": 8.3,
+        "reluctantVisitorPct": 38.7,
+        "errandRunnerPct": 31.3,
+        "specialEventVisitorPct": 21.7,
+        "vibrantPct": 74.26,
+        "lingeringPct": 21.37,
+        "perceptionBehaviorGap": 12.38,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2392,
+          48.892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Philadelphia, PA",
+        "district": "Center City",
+        "id": "center-city",
+        "region": "North America",
+        "stickinessScore": 49.48,
+        "cbdGreatExperience": 74.12,
+        "enthusiastPct": 13.1,
+        "reluctantVisitorPct": 39.5,
+        "errandRunnerPct": 28.0,
+        "specialEventVisitorPct": 19.4,
+        "vibrantPct": 72.75,
+        "lingeringPct": 29.6,
+        "perceptionBehaviorGap": 24.64,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1652,
+          39.9526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Phoenix, AZ",
+        "district": "Downtown Phoenix",
+        "id": "downtown-phoenix",
+        "region": "North America",
+        "stickinessScore": 44.71,
+        "cbdGreatExperience": 69.64,
+        "enthusiastPct": 9.5,
+        "reluctantVisitorPct": 47.9,
+        "errandRunnerPct": 25.1,
+        "specialEventVisitorPct": 17.5,
+        "vibrantPct": 64.29,
+        "lingeringPct": 25.79,
+        "perceptionBehaviorGap": 24.93,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.074,
+          33.4484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Newark, NJ",
+        "district": "Downtown Newark",
+        "id": "downtown-newark",
+        "region": "North America",
+        "stickinessScore": 55.82,
+        "cbdGreatExperience": 70.2,
+        "enthusiastPct": 18.2,
+        "reluctantVisitorPct": 24.6,
+        "errandRunnerPct": 33.7,
+        "specialEventVisitorPct": 23.5,
+        "vibrantPct": 63.55,
+        "lingeringPct": 29.83,
+        "perceptionBehaviorGap": 14.38,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1724,
+          40.7357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Pittsburgh, PA",
+        "district": "Downtown Pittsburgh (The Golden Triangle)",
+        "id": "downtown-pittsburgh-the-golden-triangle",
+        "region": "North America",
+        "stickinessScore": 47.92,
+        "cbdGreatExperience": 66.67,
+        "enthusiastPct": 11.9,
+        "reluctantVisitorPct": 46.6,
+        "errandRunnerPct": 24.5,
+        "specialEventVisitorPct": 17.0,
+        "vibrantPct": 62.42,
+        "lingeringPct": 25.89,
+        "perceptionBehaviorGap": 18.75,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0,
+          40.4406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Portland, OR",
+        "district": "Central Eastside",
+        "id": "central-eastside",
+        "region": "North America",
+        "stickinessScore": 44.57,
+        "cbdGreatExperience": 54.81,
+        "enthusiastPct": 10.7,
+        "reluctantVisitorPct": 43.7,
+        "errandRunnerPct": 26.9,
+        "specialEventVisitorPct": 18.7,
+        "vibrantPct": 46.87,
+        "lingeringPct": 22.52,
+        "perceptionBehaviorGap": 10.24,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6598,
+          45.5187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Portland, OR",
+        "district": "Downtown Portland",
+        "id": "downtown-portland",
+        "region": "North America",
+        "stickinessScore": 45.71,
+        "cbdGreatExperience": 50.14,
+        "enthusiastPct": 10.7,
+        "reluctantVisitorPct": 48.0,
+        "errandRunnerPct": 24.4,
+        "specialEventVisitorPct": 16.9,
+        "vibrantPct": 51.6,
+        "lingeringPct": 21.47,
+        "perceptionBehaviorGap": 4.43,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6784,
+          45.5231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Portland, OR",
+        "district": "Lloyd Center",
+        "id": "lloyd-center",
+        "region": "North America",
+        "stickinessScore": 42.61,
+        "cbdGreatExperience": 47.58,
+        "enthusiastPct": 9.8,
+        "reluctantVisitorPct": 45.9,
+        "errandRunnerPct": 26.1,
+        "specialEventVisitorPct": 18.2,
+        "vibrantPct": 53.02,
+        "lingeringPct": 20.92,
+        "perceptionBehaviorGap": 4.97,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6536,
+          45.5278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Raleigh, NC",
+        "district": "Downtown Raleigh",
+        "id": "downtown-raleigh",
+        "region": "North America",
+        "stickinessScore": 53.77,
+        "cbdGreatExperience": 77.42,
+        "enthusiastPct": 13.3,
+        "reluctantVisitorPct": 38.9,
+        "errandRunnerPct": 28.2,
+        "specialEventVisitorPct": 19.6,
+        "vibrantPct": 73.27,
+        "lingeringPct": 30.19,
+        "perceptionBehaviorGap": 23.65,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6382,
+          35.7796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Rio de Janeiro",
+        "district": "Centro (Downtown Rio)",
+        "id": "centro-downtown-rio",
+        "region": "Latin/South America",
+        "stickinessScore": 49.65,
+        "cbdGreatExperience": 63.07,
+        "enthusiastPct": 11.2,
+        "reluctantVisitorPct": 29.5,
+        "errandRunnerPct": 35.0,
+        "specialEventVisitorPct": 24.3,
+        "vibrantPct": 59.08,
+        "lingeringPct": 23.61,
+        "perceptionBehaviorGap": 13.42,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1729,
+          -22.9068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Riyadh",
+        "district": "Al Olaya",
+        "id": "al-olaya",
+        "region": "Middle East/Africa",
+        "stickinessScore": 64.1,
+        "cbdGreatExperience": 91.63,
+        "enthusiastPct": 25.0,
+        "reluctantVisitorPct": 17.3,
+        "errandRunnerPct": 34.0,
+        "specialEventVisitorPct": 23.7,
+        "vibrantPct": 91.04,
+        "lingeringPct": 52.22,
+        "perceptionBehaviorGap": 27.53,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6833,
+          24.6972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Riyadh",
+        "district": "King Abdullah Financial District",
+        "id": "king-abdullah-financial-district",
+        "region": "Middle East/Africa",
+        "stickinessScore": 66.61,
+        "cbdGreatExperience": 82.67,
+        "enthusiastPct": 27.4,
+        "reluctantVisitorPct": 17.5,
+        "errandRunnerPct": 32.5,
+        "specialEventVisitorPct": 22.6,
+        "vibrantPct": 85.38,
+        "lingeringPct": 53.8,
+        "perceptionBehaviorGap": 16.06,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.6387,
+          24.7642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Salt Lake City, UT",
+        "district": "Downtown Salt Lake City",
+        "id": "downtown-salt-lake-city",
+        "region": "North America",
+        "stickinessScore": 53.0,
+        "cbdGreatExperience": 68.33,
+        "enthusiastPct": 11.7,
+        "reluctantVisitorPct": 35.0,
+        "errandRunnerPct": 31.4,
+        "specialEventVisitorPct": 21.9,
+        "vibrantPct": 54.76,
+        "lingeringPct": 25.85,
+        "perceptionBehaviorGap": 15.33,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.891,
+          40.7608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Antonio, TX",
+        "district": "Downtown San Antonio",
+        "id": "downtown-san-antonio",
+        "region": "North America",
+        "stickinessScore": 50.46,
+        "cbdGreatExperience": 80.44,
+        "enthusiastPct": 12.6,
+        "reluctantVisitorPct": 40.4,
+        "errandRunnerPct": 27.7,
+        "specialEventVisitorPct": 19.3,
+        "vibrantPct": 81.04,
+        "lingeringPct": 39.64,
+        "perceptionBehaviorGap": 29.98,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4936,
+          29.4241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Diego, CA",
+        "district": "Downtown San Diego",
+        "id": "downtown-san-diego",
+        "region": "North America",
+        "stickinessScore": 49.44,
+        "cbdGreatExperience": 74.49,
+        "enthusiastPct": 13.5,
+        "reluctantVisitorPct": 42.5,
+        "errandRunnerPct": 26.0,
+        "specialEventVisitorPct": 18.0,
+        "vibrantPct": 78.14,
+        "lingeringPct": 29.4,
+        "perceptionBehaviorGap": 25.05,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Francisco, CA",
+        "district": "Financial District - SF",
+        "id": "financial-district---sf",
+        "region": "North America",
+        "stickinessScore": 53.92,
+        "cbdGreatExperience": 68.7,
+        "enthusiastPct": 16.7,
+        "reluctantVisitorPct": 30.7,
+        "errandRunnerPct": 31.0,
+        "specialEventVisitorPct": 21.6,
+        "vibrantPct": 66.74,
+        "lingeringPct": 30.81,
+        "perceptionBehaviorGap": 14.78,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3999,
+          37.7946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Jose, CR",
+        "district": "Centro de San Jos\u00e9",
+        "id": "centro-de-san-jos\u00e9",
+        "region": "Latin/South America",
+        "stickinessScore": 50.07,
+        "cbdGreatExperience": 50.25,
+        "enthusiastPct": 6.7,
+        "reluctantVisitorPct": 17.8,
+        "errandRunnerPct": 44.5,
+        "specialEventVisitorPct": 31.0,
+        "vibrantPct": 42.08,
+        "lingeringPct": 20.33,
+        "perceptionBehaviorGap": 0.18,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0907,
+          9.9281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "San Jose, CA",
+        "district": "Downtown San Jose",
+        "id": "downtown-san-jose",
+        "region": "North America",
+        "stickinessScore": 49.21,
+        "cbdGreatExperience": 59.95,
+        "enthusiastPct": 11.0,
+        "reluctantVisitorPct": 41.8,
+        "errandRunnerPct": 27.8,
+        "specialEventVisitorPct": 19.4,
+        "vibrantPct": 60.69,
+        "lingeringPct": 25.37,
+        "perceptionBehaviorGap": 10.74,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863,
+          37.3382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sao Paulo",
+        "district": "Avenida Faria Lima (West Zone)",
+        "id": "avenida-faria-lima-west-zone",
+        "region": "Latin/South America",
+        "stickinessScore": 48.59,
+        "cbdGreatExperience": 78.6,
+        "enthusiastPct": 13.7,
+        "reluctantVisitorPct": 30.5,
+        "errandRunnerPct": 32.9,
+        "specialEventVisitorPct": 22.9,
+        "vibrantPct": 59.96,
+        "lingeringPct": 29.62,
+        "perceptionBehaviorGap": 30.01,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6917,
+          -23.5678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sao Paulo",
+        "district": "Avenida Paulista (Downtown)",
+        "id": "avenida-paulista-downtown",
+        "region": "Latin/South America",
+        "stickinessScore": 50.89,
+        "cbdGreatExperience": 76.76,
+        "enthusiastPct": 14.1,
+        "reluctantVisitorPct": 35.5,
+        "errandRunnerPct": 29.7,
+        "specialEventVisitorPct": 20.7,
+        "vibrantPct": 63.42,
+        "lingeringPct": 30.08,
+        "perceptionBehaviorGap": 25.87,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.656,
+          -23.5613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sao Paulo",
+        "district": "Downtown Sao Paulo",
+        "id": "downtown-sao-paulo",
+        "region": "Latin/South America",
+        "stickinessScore": 54.46,
+        "cbdGreatExperience": 74.55,
+        "enthusiastPct": 14.2,
+        "reluctantVisitorPct": 32.9,
+        "errandRunnerPct": 31.2,
+        "specialEventVisitorPct": 21.7,
+        "vibrantPct": 65.77,
+        "lingeringPct": 28.27,
+        "perceptionBehaviorGap": 20.09,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.5505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sao Paulo",
+        "district": "Vila Olimpia (South Zone)",
+        "id": "vila-olimpia-south-zone",
+        "region": "Latin/South America",
+        "stickinessScore": 54.51,
+        "cbdGreatExperience": 76.08,
+        "enthusiastPct": 13.6,
+        "reluctantVisitorPct": 31.6,
+        "errandRunnerPct": 32.3,
+        "specialEventVisitorPct": 22.5,
+        "vibrantPct": 59.94,
+        "lingeringPct": 28.68,
+        "perceptionBehaviorGap": 21.57,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.685,
+          -23.595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Seattle, WA",
+        "district": "Downtown Seattle",
+        "id": "downtown-seattle",
+        "region": "North America",
+        "stickinessScore": 56.95,
+        "cbdGreatExperience": 67.66,
+        "enthusiastPct": 17.4,
+        "reluctantVisitorPct": 25.0,
+        "errandRunnerPct": 34.0,
+        "specialEventVisitorPct": 23.6,
+        "vibrantPct": 67.66,
+        "lingeringPct": 34.78,
+        "perceptionBehaviorGap": 10.71,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Seoul",
+        "district": "Gangnam",
+        "id": "gangnam",
+        "region": "Asia Pacific",
+        "stickinessScore": 53.48,
+        "cbdGreatExperience": 67.09,
+        "enthusiastPct": 12.0,
+        "reluctantVisitorPct": 25.3,
+        "errandRunnerPct": 37.0,
+        "specialEventVisitorPct": 25.7,
+        "vibrantPct": 66.76,
+        "lingeringPct": 24.37,
+        "perceptionBehaviorGap": 13.61,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0495,
+          37.4979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Seoul",
+        "district": "Jongro / Gwanghwamun",
+        "id": "jongro---gwanghwamun",
+        "region": "Asia Pacific",
+        "stickinessScore": 49.43,
+        "cbdGreatExperience": 64.93,
+        "enthusiastPct": 11.9,
+        "reluctantVisitorPct": 24.7,
+        "errandRunnerPct": 37.4,
+        "specialEventVisitorPct": 26.0,
+        "vibrantPct": 68.52,
+        "lingeringPct": 26.02,
+        "perceptionBehaviorGap": 15.5,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9784,
+          37.572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Seoul",
+        "district": "Yeouido",
+        "id": "yeouido",
+        "region": "Asia Pacific",
+        "stickinessScore": 52.99,
+        "cbdGreatExperience": 62.2,
+        "enthusiastPct": 11.6,
+        "reluctantVisitorPct": 26.4,
+        "errandRunnerPct": 36.6,
+        "specialEventVisitorPct": 25.4,
+        "vibrantPct": 70.64,
+        "lingeringPct": 24.06,
+        "perceptionBehaviorGap": 9.21,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9247,
+          37.5219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Shanghai",
+        "district": "Huaihai Road CBD",
+        "id": "huaihai-road-cbd",
+        "region": "Asia Pacific",
+        "stickinessScore": 65.37,
+        "cbdGreatExperience": 101.19,
+        "enthusiastPct": 27.9,
+        "reluctantVisitorPct": 18.4,
+        "errandRunnerPct": 31.7,
+        "specialEventVisitorPct": 22.0,
+        "vibrantPct": 91.05,
+        "lingeringPct": 59.35,
+        "perceptionBehaviorGap": 35.82,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4632,
+          31.2218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Shanghai",
+        "district": "Lujiazui",
+        "id": "lujiazui",
+        "region": "Asia Pacific",
+        "stickinessScore": 64.95,
+        "cbdGreatExperience": 87.52,
+        "enthusiastPct": 26.9,
+        "reluctantVisitorPct": 18.5,
+        "errandRunnerPct": 32.2,
+        "specialEventVisitorPct": 22.4,
+        "vibrantPct": 91.0,
+        "lingeringPct": 61.06,
+        "perceptionBehaviorGap": 22.57,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5054,
+          31.2397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Singapore",
+        "district": "Downtown Core",
+        "id": "downtown-core",
+        "region": "Asia Pacific",
+        "stickinessScore": 51.35,
+        "cbdGreatExperience": 74.44,
+        "enthusiastPct": 10.1,
+        "reluctantVisitorPct": 31.6,
+        "errandRunnerPct": 34.4,
+        "specialEventVisitorPct": 23.9,
+        "vibrantPct": 75.66,
+        "lingeringPct": 18.38,
+        "perceptionBehaviorGap": 23.09,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8519,
+          1.2897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "St. Louis, MO",
+        "district": "Downtown St. Louis",
+        "id": "downtown-st.-louis",
+        "region": "North America",
+        "stickinessScore": 47.32,
+        "cbdGreatExperience": 55.53,
+        "enthusiastPct": 9.0,
+        "reluctantVisitorPct": 38.3,
+        "errandRunnerPct": 31.1,
+        "specialEventVisitorPct": 21.6,
+        "vibrantPct": 50.39,
+        "lingeringPct": 22.07,
+        "perceptionBehaviorGap": 8.21,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1994,
+          38.627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Stockholm",
+        "district": "Kista Science City",
+        "id": "kista-science-city",
+        "region": "Europe",
+        "stickinessScore": 61.94,
+        "cbdGreatExperience": 69.31,
+        "enthusiastPct": 14.7,
+        "reluctantVisitorPct": 16.5,
+        "errandRunnerPct": 40.6,
+        "specialEventVisitorPct": 28.2,
+        "vibrantPct": 76.64,
+        "lingeringPct": 31.09,
+        "perceptionBehaviorGap": 7.37,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9503,
+          59.4033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Stockholm",
+        "district": "Ostermalm",
+        "id": "ostermalm",
+        "region": "Europe",
+        "stickinessScore": 62.11,
+        "cbdGreatExperience": 61.65,
+        "enthusiastPct": 14.2,
+        "reluctantVisitorPct": 16.7,
+        "errandRunnerPct": 40.8,
+        "specialEventVisitorPct": 28.3,
+        "vibrantPct": 79.0,
+        "lingeringPct": 30.81,
+        "perceptionBehaviorGap": -0.46,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.08,
+          59.3369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Stockholm",
+        "district": "Stockholm Central Business District",
+        "id": "stockholm-central-business-district",
+        "region": "Europe",
+        "stickinessScore": 62.42,
+        "cbdGreatExperience": 62.7,
+        "enthusiastPct": 14.9,
+        "reluctantVisitorPct": 15.0,
+        "errandRunnerPct": 41.4,
+        "specialEventVisitorPct": 28.7,
+        "vibrantPct": 78.87,
+        "lingeringPct": 32.89,
+        "perceptionBehaviorGap": 0.28,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0686,
+          59.3326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Sydney",
+        "district": "Sydney CBD / The City",
+        "id": "sydney-cbd---the-city",
+        "region": "Asia Pacific",
+        "stickinessScore": 62.01,
+        "cbdGreatExperience": 88.76,
+        "enthusiastPct": 19.1,
+        "reluctantVisitorPct": 13.9,
+        "errandRunnerPct": 39.5,
+        "specialEventVisitorPct": 27.5,
+        "vibrantPct": 80.9,
+        "lingeringPct": 35.58,
+        "perceptionBehaviorGap": 26.75,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Taipei",
+        "district": "Taipei Main Train Station Business District",
+        "id": "taipei-main-train-station-business-district",
+        "region": "Asia Pacific",
+        "stickinessScore": 53.94,
+        "cbdGreatExperience": 73.42,
+        "enthusiastPct": 13.3,
+        "reluctantVisitorPct": 23.9,
+        "errandRunnerPct": 37.1,
+        "specialEventVisitorPct": 25.7,
+        "vibrantPct": 71.58,
+        "lingeringPct": 30.22,
+        "perceptionBehaviorGap": 19.48,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.517,
+          25.0479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Taipei",
+        "district": "Xinyi Business District",
+        "id": "xinyi-business-district",
+        "region": "Asia Pacific",
+        "stickinessScore": 55.66,
+        "cbdGreatExperience": 69.79,
+        "enthusiastPct": 14.7,
+        "reluctantVisitorPct": 23.5,
+        "errandRunnerPct": 36.5,
+        "specialEventVisitorPct": 25.3,
+        "vibrantPct": 80.24,
+        "lingeringPct": 32.46,
+        "perceptionBehaviorGap": 14.13,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5654,
+          25.033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Tampa, FL",
+        "district": "Downtown Tampa",
+        "id": "downtown-tampa",
+        "region": "North America",
+        "stickinessScore": 49.9,
+        "cbdGreatExperience": 75.82,
+        "enthusiastPct": 13.7,
+        "reluctantVisitorPct": 40.5,
+        "errandRunnerPct": 27.0,
+        "specialEventVisitorPct": 18.8,
+        "vibrantPct": 74.51,
+        "lingeringPct": 36.25,
+        "perceptionBehaviorGap": 25.92,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4572,
+          27.9506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Tokyo",
+        "district": "Marunouchi / Otemachi",
+        "id": "marunouchi---otemachi",
+        "region": "Asia Pacific",
+        "stickinessScore": 40.36,
+        "cbdGreatExperience": 41.55,
+        "enthusiastPct": 4.7,
+        "reluctantVisitorPct": 45.3,
+        "errandRunnerPct": 29.5,
+        "specialEventVisitorPct": 20.5,
+        "vibrantPct": 70.39,
+        "lingeringPct": 9.1,
+        "perceptionBehaviorGap": 1.19,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.767,
+          35.6833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Tokyo",
+        "district": "Shinagawa",
+        "id": "shinagawa",
+        "region": "Asia Pacific",
+        "stickinessScore": 43.04,
+        "cbdGreatExperience": 46.53,
+        "enthusiastPct": 5.2,
+        "reluctantVisitorPct": 46.8,
+        "errandRunnerPct": 28.3,
+        "specialEventVisitorPct": 19.7,
+        "vibrantPct": 69.87,
+        "lingeringPct": 8.87,
+        "perceptionBehaviorGap": 3.49,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.739,
+          35.6284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Tokyo",
+        "district": "Shinjuku",
+        "id": "shinjuku",
+        "region": "Asia Pacific",
+        "stickinessScore": 38.8,
+        "cbdGreatExperience": 42.05,
+        "enthusiastPct": 4.8,
+        "reluctantVisitorPct": 46.2,
+        "errandRunnerPct": 28.9,
+        "specialEventVisitorPct": 20.1,
+        "vibrantPct": 65.85,
+        "lingeringPct": 8.9,
+        "perceptionBehaviorGap": 3.25,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6917,
+          35.6938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Toronto",
+        "district": "Downtown Toronto",
+        "id": "downtown-toronto",
+        "region": "North America",
+        "stickinessScore": 48.81,
+        "cbdGreatExperience": 76.76,
+        "enthusiastPct": 7.2,
+        "reluctantVisitorPct": 38.5,
+        "errandRunnerPct": 32.0,
+        "specialEventVisitorPct": 22.3,
+        "vibrantPct": 73.57,
+        "lingeringPct": 23.91,
+        "perceptionBehaviorGap": 27.95,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3832,
+          43.6532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Toronto",
+        "district": "Midtown Toronto",
+        "id": "midtown-toronto",
+        "region": "North America",
+        "stickinessScore": 49.72,
+        "cbdGreatExperience": 79.09,
+        "enthusiastPct": 7.1,
+        "reluctantVisitorPct": 34.9,
+        "errandRunnerPct": 34.2,
+        "specialEventVisitorPct": 23.8,
+        "vibrantPct": 68.63,
+        "lingeringPct": 26.2,
+        "perceptionBehaviorGap": 29.37,
+        "dataSource": "real+jitter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3957,
+          43.6996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Vancouver",
+        "district": "Financial District",
+        "id": "financial-district",
+        "region": "North America",
+        "stickinessScore": 51.73,
+        "cbdGreatExperience": 66.46,
+        "enthusiastPct": 12.0,
+        "reluctantVisitorPct": 36.5,
+        "errandRunnerPct": 30.4,
+        "specialEventVisitorPct": 21.1,
+        "vibrantPct": 63.31,
+        "lingeringPct": 24.8,
+        "perceptionBehaviorGap": 14.73,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1207,
+          49.2827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "city": "Washington, DC",
+        "district": "Downtown DC",
+        "id": "downtown-dc",
+        "region": "North America",
+        "stickinessScore": 58.13,
+        "cbdGreatExperience": 78.6,
+        "enthusiastPct": 16.2,
+        "reluctantVisitorPct": 25.9,
+        "errandRunnerPct": 34.2,
+        "specialEventVisitorPct": 23.7,
+        "vibrantPct": 73.42,
+        "lingeringPct": 30.94,
+        "perceptionBehaviorGap": 20.47,
+        "dataSource": "real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      }
+    }
+  ]
+}

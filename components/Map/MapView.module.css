@@ -1,0 +1,70 @@
+/**
+ * MapView.module.css
+ *
+ * The container fills 100% of its parent (which is the flex grid from
+ * MapApp). position: relative is required so the absolutely-positioned
+ * controls and tooltip are contained within the map, not the viewport.
+ */
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* min-width: 0 prevents a flex/grid child from overflowing its container */
+  min-width: 0;
+}
+
+/* Metric switcher control — floats over map top-left */
+.controls {
+  position: absolute;
+  top: var(--space-4);
+  left: var(--space-4);
+  z-index: 10;
+  pointer-events: auto;
+}
+
+/* Top-right slot — holds either the region buttons or the return button */
+.topRight {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  z-index: 10;
+}
+
+/* "Return to global view" button — shown when zoomed in */
+.globalViewButton {
+  display: flex;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+}
+
+.globalViewButton:hover {
+  background: var(--color-surface);
+  color: var(--color-text);
+  box-shadow: var(--shadow-md);
+}
+
+.globalViewButton:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Legend — floats over map bottom-left */
+.legend {
+  position: absolute;
+  bottom: var(--space-6);
+  left: var(--space-4);
+  z-index: 10;
+  /* pointer-events: none is set on the legend card itself so the map
+     remains interactive underneath it */
+}

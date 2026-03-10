@@ -1,0 +1,81 @@
+.container {
+  padding: var(--space-5) 0 var(--space-4);
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-1);
+}
+
+.subtitle {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-4);
+  line-height: 1.5;
+}
+
+/* ---- Donut pie chart ---- */
+.pieChart {
+  display: block;
+  margin: 0 auto var(--space-4);
+}
+
+/* ---- Legend ---- */
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.legendDot {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  flex-shrink: 0;
+  /* Color comes from CSS custom property set inline */
+  background-color: var(--dot-color, var(--color-border));
+}
+
+.legendLabel {
+  font-size: 12px;
+  color: var(--color-text);
+  flex: 1;
+}
+
+.legendPct {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Callout ---- */
+.callout {
+  font-size: 12px;
+  color: var(--color-accent);
+  font-weight: 500;
+  background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+  border-left: 3px solid var(--color-accent);
+  padding: var(--space-2) var(--space-3);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  line-height: 1.5;
+}
+
+.calloutIcon {
+  flex-shrink: 0;
+  font-weight: 700;
+}

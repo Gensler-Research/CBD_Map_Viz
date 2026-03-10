@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  box-shadow: var(--shadow-md);
+  /* Prevent the control from expanding beyond its content */
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  /* Hide on mobile — select element is self-labelling with a native prompt */
+  display: block;
+}
+
+.select {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text);
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /* Minimal padding so the native arrow stays tight */
+  padding-right: var(--space-3);
+  appearance: auto; /* Use native OS select arrow */
+}
+
+.select:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* --------------------------------------------------------------------------
+   Mobile
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .label {
+    display: none;
+  }
+
+  .container {
+    padding: var(--space-2);
+  }
+}

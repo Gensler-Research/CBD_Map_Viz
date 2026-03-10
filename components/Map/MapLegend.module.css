@@ -1,0 +1,99 @@
+/**
+ * components/Map/MapLegend.module.css
+ *
+ * Styles for the floating map legend in the bottom-left corner.
+ *
+ * The gradient bar uses --color-scale-* custom properties from globals.css
+ * so it stays in sync with the MapLibre circle colors automatically.
+ *
+ * The average marker position is driven by --avg-pos, which MapLegend.tsx
+ * sets dynamically via the `style` prop (e.g. style={{ '--avg-pos': '42%' }}).
+ */
+
+/* Card container — sits above the map in the bottom-left */
+.legend {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-3) var(--space-4);
+  min-width: 180px;
+  max-width: 220px;
+  /* Prevent the legend from intercepting map interactions */
+  pointer-events: none;
+}
+
+/* Metric name label */
+.title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+  white-space: nowrap;
+}
+
+/* Wrapper that contains both the bar and the floating average marker */
+.barWrapper {
+  position: relative;
+  /* Extra top space to accommodate the avg label that floats above the bar */
+  margin-top: 20px;
+  margin-bottom: var(--space-1);
+}
+
+/* The colored gradient bar */
+.bar {
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: linear-gradient(
+    to right,
+    var(--color-scale-low),
+    var(--color-scale-mid),
+    var(--color-scale-high)
+  );
+}
+
+/* Average marker — positions itself along the bar using --avg-pos */
+.avgMarker {
+  position: absolute;
+  /* Center the marker over its position (marker is ~2px wide) */
+  left: var(--avg-pos);
+  transform: translateX(-50%);
+  /* Sits above the bar */
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Small text label above the tick mark */
+.avgLabel {
+  font-size: 10px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  margin-bottom: 3px;
+  /* Nudge label upward so it doesn't overlap the bar */
+  transform: translateY(-100%);
+  position: absolute;
+  bottom: 0%;
+}
+
+/* The vertical tick line that points to the bar */
+.avgTick {
+  width: 2px;
+  height: 12px;
+  background: var(--color-text);
+  border-radius: 1px;
+  /* Position tick to overlap the bar by half its height */
+  margin-bottom: -4px;
+}
+
+/* Min / max value labels below the bar */
+.rangeLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--space-1);
+  font-size: 10px;
+  color: var(--color-text-muted);
+}

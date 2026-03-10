@@ -1,0 +1,71 @@
+.tooltip {
+  position: absolute;
+  /*
+   * Offset right and above the cursor. translate(-50%, calc(-100% - 12px))
+   * centres the tooltip horizontally on the cursor and places it above with
+   * a 12px gap.
+   */
+  left: var(--tooltip-x, 0px);
+  top: var(--tooltip-y, 0px);
+  transform: translate(8px, calc(-100% - 12px));
+
+  /* Appearance */
+  background: var(--color-text);
+  color: var(--color-background);
+  border-radius: var(--radius-md);
+  padding: var(--space-2) var(--space-3);
+  box-shadow: var(--shadow-md);
+
+  /* Layout */
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 140px;
+  max-width: 220px;
+
+  /* Critical: must not block map mouse events */
+  pointer-events: none;
+
+  /* Smooth fade in */
+  animation: tooltipIn 0.1s ease forwards;
+  z-index: 20;
+}
+
+@keyframes tooltipIn {
+  from {
+    opacity: 0;
+    transform: translate(8px, calc(-100% - 8px));
+  }
+  to {
+    opacity: 1;
+    transform: translate(8px, calc(-100% - 12px));
+  }
+}
+
+.district {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.city {
+  font-size: 11px;
+  opacity: 0.75;
+}
+
+.metric {
+  font-size: 12px;
+  margin-top: 2px;
+  opacity: 0.9;
+}
+
+.prompt {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.55;
+  margin-top: 2px;
+}

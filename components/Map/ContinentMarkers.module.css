@@ -1,0 +1,39 @@
+/* ---- Continent label button ---- */
+
+/*
+ * Each button is rendered as a MapLibre Marker (HTML overlay).
+ * It sits on top of the map canvas and is styled to look like a subtle
+ * geographic label — legible but unobtrusive.
+ *
+ * The uppercase + letter-spacing treatment mirrors standard cartographic
+ * label conventions, reinforcing that these are geographic regions.
+ */
+.label {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-3);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+  /* Prevent the label from stealing the map's scroll/drag events */
+  touch-action: none;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+}
+
+.label:hover {
+  background: var(--color-background);
+  color: var(--color-text);
+  box-shadow: var(--shadow-md);
+}
+
+.label:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
