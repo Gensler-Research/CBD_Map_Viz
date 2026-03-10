@@ -16,7 +16,7 @@
 }
 
 .label {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -24,7 +24,7 @@
 }
 
 .value {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--color-text);
   letter-spacing: -0.02em;
