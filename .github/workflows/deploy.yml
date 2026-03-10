@@ -32,6 +32,8 @@ jobs:
       - name: Build static export
         run: npm run build
         # next build with output:'export' writes the site to ./out
+        env:
+          NEXT_PUBLIC_BASE_PATH: /CBD_Map_Viz
 
       - name: Disable Jekyll
         # GitHub Pages runs Jekyll by default, which ignores all _* directories.
