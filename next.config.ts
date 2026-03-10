@@ -17,7 +17,17 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   turbopack: {},
-  devIndicators: false
+  devIndicators: false,
+
+  // Static export — required for GitHub Pages (no Node server available)
+  output: 'export',
+
+  // The repo lives at github.com/Gensler-Research/CBD_Map_Viz so
+  // GitHub Pages serves it at /CBD_Map_Viz — all asset paths must be prefixed.
+  basePath: '/CBD_Map_Viz',
+
+  // Next.js image optimisation requires a server; disable for static export.
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
