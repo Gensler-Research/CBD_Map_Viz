@@ -18,14 +18,14 @@ import type { MetricConfig } from '../types/cbd';
 /**
  * Format a metric value for display.
  * Examples:
- *   formatMetricValue(50.46, '')  → '50.5'
- *   formatMetricValue(80.76, '%') → '80.8%'
+ *   formatMetricValue(50.46, '')  → '50'
+ *   formatMetricValue(80.76, '%') → '81%'
  */
 export function formatMetricValue(value: number, unit: string): string {
   if (unit === '%') {
-    return `${value.toFixed(1)}%`;
+    return `${Math.round(value)}%`;
   }
-  return value.toFixed(1);
+  return String(Math.round(value));
 }
 
 // ---------------------------------------------------------------------------
@@ -44,7 +44,7 @@ export function formatComparison(
   unit: string,
 ): string {
   const diff = value - average;
-  const absDiff = Math.abs(diff).toFixed(1);
+  const absDiff = Math.round(Math.abs(diff));
   const direction = diff >= 0 ? 'above' : 'below';
   const label = unit === '%' ? `${absDiff}%` : `${absDiff} pts`;
   return `${label} ${direction} global avg`;

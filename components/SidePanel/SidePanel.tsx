@@ -56,7 +56,7 @@ export function SidePanel() {
       */}
       {selectedCBD && (
         <div className={styles.inner}>
-          {/* Return to global view button — closes panel and resets camera */}
+          {/* Return to global view — pinned to top-right of the panel */}
           <button
             className={styles.returnButton}
             onClick={resetToGlobal}

@@ -20,6 +20,7 @@
  * CSS custom properties supply the fill colours — same tokens as globals.css.
  */
 
+import { useState } from 'react';
 import type { CBDProperties } from '../../types/cbd';
 import { STRINGS } from '../../constants/strings';
 import styles from './PersonaSplit.module.css';
@@ -35,6 +36,8 @@ interface PersonaConfig {
     | 'reluctantVisitorPct'
   >;
   label: string;
+  /** Short label shown in the donut centre on hover — must fit ~60px */
+  shortLabel: string;
   colorVar: string; // CSS custom property name from globals.css
 }
 
@@ -44,21 +47,25 @@ const PERSONAS: PersonaConfig[] = [
   {
     key: 'enthusiastPct',
     label: STRINGS.personas.enthusiast,
+    shortLabel: 'Enthusiast',
     colorVar: '--color-persona-enthusiast',
   },
   {
     key: 'specialEventVisitorPct',
     label: STRINGS.personas.specialEventVisitor,
+    shortLabel: 'Special Event',
     colorVar: '--color-persona-special-event',
   },
   {
     key: 'errandRunnerPct',
     label: STRINGS.personas.errandRunner,
+    shortLabel: 'Errand Runner',
     colorVar: '--color-persona-errand-runner',
   },
   {
     key: 'reluctantVisitorPct',
     label: STRINGS.personas.reluctantVisitor,
+    shortLabel: 'Reluctant',
     colorVar: '--color-persona-reluctant',
   },
 ];
@@ -131,6 +138,8 @@ interface DonutChartProps {
 }
 
 function DonutChart({ cbd }: DonutChartProps) {
+  const [hoveredKey, setHoveredKey] = useState<string | null>(null);
+
   // Sum all persona values so we can express each as a fraction of the total
   // (handles minor rounding differences where values don't add to exactly 100)
   const total = PERSONAS.reduce((sum, p) => sum + cbd[p.key], 0);
@@ -146,6 +155,8 @@ function DonutChart({ cbd }: DonutChartProps) {
     return { ...persona, pct, startAngle, endAngle };
   });
 
+  const hoveredSlice = slices.find((s) => s.key === hoveredKey) ?? null;
+
   return (
     <svg
       className={styles.pieChart}
@@ -158,12 +169,30 @@ function DonutChart({ cbd }: DonutChartProps) {
         <path
           key={slice.key}
           d={donutSlicePath(CX, CY, OUTER_R, INNER_R, slice.startAngle, slice.endAngle)}
-          // fill via inline style so CSS custom properties resolve correctly in SVG
-          style={{ fill: `var(${slice.colorVar})` }}
+          style={{
+            fill: `var(${slice.colorVar})`,
+            opacity: hoveredKey && slice.key !== hoveredKey ? 0.3 : 1,
+            transition: 'opacity 0.15s',
+            cursor: 'pointer',
+          }}
+          onMouseEnter={() => setHoveredKey(slice.key)}
+          onMouseLeave={() => setHoveredKey(null)}
         >
-          <title>{`${slice.label}: ${slice.pct.toFixed(1)}%`}</title>
+          <title>{`${slice.label}: ${Math.round(slice.pct)}%`}</title>
         </path>
       ))}
+
+      {/* Centre label — shown when a slice is hovered */}
+      {hoveredSlice && (
+        <>
+          <text className={styles.centerPct} x={CX} y={CY - 4} textAnchor="middle" dominantBaseline="auto">
+            {Math.round(hoveredSlice.pct)}%
+          </text>
+          <text className={styles.centerLabel} x={CX} y={CY + 10} textAnchor="middle" dominantBaseline="auto">
+            {hoveredSlice.shortLabel}
+          </text>
+        </>
+      )}
     </svg>
   );
 }
@@ -185,7 +214,7 @@ export function PersonaSplit({ cbd, globalAvgEnthusiast }: PersonaSplitProps) {
   let calloutIcon: string | null = null;
   if (Math.abs(enthusiastDiff) >= CALLOUT_THRESHOLD) {
     const direction = enthusiastDiff > 0 ? 'more' : 'fewer';
-    calloutText = `${Math.abs(enthusiastDiff).toFixed(1)}% ${direction} Enthusiasts than the global average`;
+    calloutText = `${Math.round(Math.abs(enthusiastDiff))}% ${direction} Enthusiasts than the global average`;
     calloutIcon = enthusiastDiff > 0 ? '↑' : '↓';
   }
 
@@ -212,7 +241,7 @@ export function PersonaSplit({ cbd, globalAvgEnthusiast }: PersonaSplitProps) {
                 }
               />
               <span className={styles.legendLabel}>{persona.label}</span>
-              <span className={styles.legendPct}>{pct.toFixed(1)}%</span>
+              <span className={styles.legendPct}>{Math.round(pct)}%</span>
             </div>
           );
         })}
