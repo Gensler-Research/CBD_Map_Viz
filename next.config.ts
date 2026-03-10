@@ -15,10 +15,6 @@
 
 import type { NextConfig } from 'next';
 
-// When running in GitHub Actions, the site is served from /CBD_Map_Viz.
-// Locally (dev or build) there's no subdirectory, so basePath stays empty.
-const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
-
 const nextConfig: NextConfig = {
   turbopack: {},
   devIndicators: false,
@@ -26,8 +22,9 @@ const nextConfig: NextConfig = {
   // Static export — required for GitHub Pages (no Node server available)
   output: 'export',
 
-  // Only prefix asset paths when deploying — keeps localhost:3000 working normally
-  basePath: isGitHubActions ? '/CBD_Map_Viz' : '',
+  // No basePath needed — GitHub Pages now serves via isolated subdomains
+  // (*.pages.github.io) where the artifact is mounted at the domain root,
+  // not at /<repo>/. Adding a basePath would break all _next/ asset paths.
 
   // Next.js image optimisation requires a server; disable for static export.
   images: { unoptimized: true },
